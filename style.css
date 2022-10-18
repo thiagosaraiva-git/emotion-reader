@@ -1,0 +1,32 @@
+body {
+  background: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 1em;
+}
+
+.navbar {
+  color: white;
+  margin-bottom: 1em;
+}
+
+#camera 
+{
+  width: 350px;
+  height: 300px; 
+  margin: 0.5em 0;
+}
+
+.btn {
+  margin: 1em 0;
+}
+
+.name_of_objects, #result_object_name, #result_object_accuracy
+{
+  color: black;
+}
