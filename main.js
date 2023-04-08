@@ -13,7 +13,7 @@ function take_snapshot() {
       document.getElementById("result").innerHTML = '<img id="captured_image" src="'+data_uri+'"/>';
   });
 
-  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/bP5HgDBlC/model.json', modelLoaded);
+  classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/SI1HHpZCh/model.json', modelLoaded);
   img = document.getElementById('captured_image');
   classifier.classify(img, gotResult);
 }
